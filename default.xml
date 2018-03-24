@@ -4,6 +4,7 @@
   <default revision="master" remote="github"/>
 
   <project name="manifest" path="manifest"/>
+  <project name="tinycrypt" path="crypto/tinycrypt"/>
   <project name="mcuboot" path="bootloader/mcuboot"/>
   <project name="zephyr" path="zephyr-core"/>
 </manifest>
