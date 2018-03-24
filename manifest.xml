@@ -3,6 +3,7 @@
   <remote fetch="https://github.com/nashif/" name="github"/>
   <default revision="master" remote="github"/>
 
-  <project name="mcuboot" path="bootloader"/>
+  <project name="manifest" path="manifest"/>
+  <project name="mcuboot" path="bootloader/mcuboot"/>
   <project name="zephyr" path="zephyr-core"/>
 </manifest>
