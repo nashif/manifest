@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="ssh://git@github.com/nashif" name="github"/>
+	<remote fetch="ssh://git@github.com/zephyriot" name="github"/>
   <default revision="master" remote="github"/>
 
   <project name="manifest" path="manifest"/>
