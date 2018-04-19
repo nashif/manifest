@@ -4,7 +4,21 @@
   <default revision="master" remote="github"/>
 
   <project name="manifest" path="manifest"/>
-  <project name="tinycrypt" path="crypto/tinycrypt"/>
-  <project name="mcuboot" path="bootloader/mcuboot"/>
-  <project name="zephyr" path="zephyr-core"/>
+  <project name="tinycrypt" path="module/tinycrypt"/>
+  <project name="tinycbor" path="module/tinycbor"/>
+  <project name="FatFS" path="module/FatFS"/>
+  <project name="mcumgr" path="module/mcumgr"/>
+  <project name="nffs" path="module/nffs"/>
+  <project name="mbedtls" path="module/mbedtls"/>
+
+<project name="altera_hal" path="hal/altera"/>
+<project name="atmel_hal" path="hal/atmel"/>
+<project name="nordic_hal" path="hal/nordic"/>
+<project name="nxp_imx_hal" path="hal/nxp_imx"/>
+<project name="nxp_mcux_hal" path="hal/nxp_mcux"/>
+<project name="qmsi_hal" path="hal/qmsi"/>
+<project name="silabs_hal" path="hal/silabs"/>
+<project name="st_hal" path="hal/st"/>
+<project name="ti_hal" path="hal/ti"/>
+  <project name="zephyr" path="zephyr"/>
 </manifest>
